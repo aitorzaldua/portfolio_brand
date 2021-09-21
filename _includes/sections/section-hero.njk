@@ -1,0 +1,16 @@
+
+<section class="hero">
+    <div class="sidebar">
+        <h1 class="sidebar-title">
+            <span>
+                {{ section.data.icon | safe }}
+                {{ section.data.title }}
+            </span>
+        </h1>
+    </div>
+    <div class="hero-body">
+        <div class="hero-bio container container--narrow">
+            {{ section.data.content | safe }}
+        </div>
+    </div>
+</section>

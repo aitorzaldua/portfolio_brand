@@ -80,9 +80,9 @@ button {
   --c-text-primary: #000;
   --c-text-secondary: #515e72;
   --c-link-primary: #ffe227;
-  --c-bg-primary: #fff;
-  --c-bg-secondary: #eee;
-  --c-border-primary: #ccc;
+  --c-bg-primary: #c8dce4;
+  --c-bg-secondary: #284652;
+  --c-border-primary: #467f86;
 }
 
 :root.dark-theme {
@@ -115,6 +115,8 @@ body {
   font-family: var(--font-family-primary);
   color: var(--c-text-primary);
   background-color: var(--c-bg-primary);
+  background: linear-gradient(#4a8196, #bbd4dd, #d6e5eb, #bbd4dd, #4a8196);
+  
 }
 
 .vaporwave-theme body {
@@ -160,13 +162,15 @@ h6 {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 30vh;
+  
 }
 
 .sidebar {
   border-right: 1px solid var(--c-border-primary);
   padding: 0.75rem 1rem;
   position: relative;
-  background-color: var(--c-bg-primary);
+  /* background-color: var(--c-bg-primary); */
+  background: linear-gradient(#4a8196, #bbd4dd, #d6e5eb, #bbd4dd, #4a8196);
 }
 
 @media (min-width: 800px) {

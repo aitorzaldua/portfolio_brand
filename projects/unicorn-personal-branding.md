@@ -1,5 +1,5 @@
 ---
-title: Unicorn — personal branding
+title: Ethereum
 description: It's the least humble thing in the world, calling yourself a
   'unicorn', but that's what a designer who codes is supposedly called.
 ---

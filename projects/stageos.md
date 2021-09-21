@@ -1,5 +1,5 @@
 ---
-title: StageOS
+title: Polkadot
 description: In 2020 Microsoft developer Stephanie Eckles launched a
   collaboration project urging fellow developers to restyle her website
   stylestage.dev using only CSS without altering the HTML. This was my

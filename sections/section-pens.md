@@ -1,6 +1,6 @@
 ---
 layout: sections/section.njk
-title: CodePen
+title: BLOG
 section_id: pens
 id: pens
 icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0
@@ -16,7 +16,7 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0
   2.263-4.264-2.868V3.253l7.674 5.093zm-9.946-5.093V7.74l-4.263 2.868L3.19
   8.346l7.674-5.093zM12 9.715l-3.35 2.254L12 14.192l3.35-2.223L12
   9.715z"/></svg>
-order: 4
+order: 3
 ---
 I'm an avid user of [CodePen](https://codepen.io/havardob) and huge fan of their community. It's become somewhat a daily hobby of mine to use this platform to recreate Dribbble shots or explore the many possiblities CSS has to offer.
 

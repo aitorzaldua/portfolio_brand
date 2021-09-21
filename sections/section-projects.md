@@ -1,6 +1,6 @@
 ---
 layout: sections/section.njk
-title: Work
+title: SERVICES
 section_id: projects
 id: projects
 icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
@@ -15,4 +15,5 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   stroke-linejoin="round" stroke-width="16"></line></svg>
 order: 2
 ---
-Day to day I work as a front-end designer at [Bouvet](https://bouvet.no), but here's some of the stuff I've done personally recently.
+<!-- Day to day I work as a front-end designer at [Bouvet](https://bouvet.no), but here's some of the stuff I've done personally recently. -->
+We help by creating an alternative to the dominant centralized systems of the Internet, protecting our ability to make our own choices, and giving trustworthy information we can act on.

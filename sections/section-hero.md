@@ -1,6 +1,6 @@
 ---
 layout: sections/section.njk
-title: Welcome
+title: WELCOME
 section_id: hero
 icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256"
@@ -22,8 +22,8 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   stroke-width="16"></path></svg>
 order: 1
 ---
-# Hi! I'm Håvard Brynjulfsen, <br />a front-end web designer based in Bergen, Norway.
+# The Real Digital Transformation. <br />Data Integrity without Centralized Authorities.
 
-UX design enthusiast. Accessibility advocate. CSS lover. 
+Security, Reliability and Scalability, while preseeving your Independency. 
 
-Sometimes I [create](#projects) stuff. Other times I just [code](#pens) stuff. Occasionally I even [write](#writing) some stuff. Currently at [Bouvet](https://bouvet.no)
+P2P decentralized network: [Holochain](#projects). The new era of databases [Blockchain](#pens) Ethereum [Smart Contract](#writing). Security with [Rust](https://www.rust-lang.org/)

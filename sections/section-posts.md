@@ -1,6 +1,6 @@
 ---
 layout: sections/section.njk
-title: Writing
+title: RUST
 section_id: posts
 id: writing
 icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
@@ -13,6 +13,6 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   stroke-linejoin="round" stroke-width="16"></line><polyline points="216 216 96
   216 40.509 160.509" fill="none" stroke="currentColor" stroke-linecap="round"
   stroke-linejoin="round" stroke-width="16"></polyline></svg>
-order: 3
+order: 4
 ---
 This is my blog. Or stories. Or whatever you wanna call it. Here you'll find a bunch of my writing, some of which has been published to the likes of [UXCollective.cc](https://medium.com/@havard.brynjulfsen) on Medium and [CSS-Tricks](https://css-tricks.com/author/havardbrynjulfsen/).

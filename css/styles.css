@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500;600;700&family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Tinos:ital,wght@1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+
+/* que es after/before? */
+
 *,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
 
 body,
 h1,
@@ -27,11 +32,16 @@ dd {
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
   scroll-behavior: smooth;
   line-height: 1.5;
+  font-family: var(--font-family-primary);
+  color: var(--c-text-primary);
+  background-color: var(--c-bg-primary);
+  background: var(--c-background01);
 }
 
 img {
@@ -39,9 +49,12 @@ img {
   display: block;
 }
 
+/* textos subrayadas con enlace */
 a {
   color: inherit;
 }
+
+/* hasta aquí, textos subrayados */
 
 input,
 button,
@@ -49,6 +62,8 @@ textarea,
 select {
   font: inherit;
 }
+
+/* Que boton? */
 
 button {
   border: 1px solid;
@@ -60,6 +75,10 @@ button {
        appearance: none;
   -webkit-appearance: none;
 }
+
+/* hasta aquí button */
+
+
 
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -73,6 +92,8 @@ button {
   }
 }
 
+/* Tema luminoso  - frontal */
+
 :root {
   --font-family-primary: "Urbanist", "Inter", sans-serif;
   --font-family-secondary: "Fraunces", serif;
@@ -83,8 +104,12 @@ button {
   --c-bg-primary: #c8dce4;
   --c-bg-secondary: #284652;
   --c-border-primary: #467f86;
+  --c-background01: linear-gradient(#4a8196, #bbd4dd, #d6e5eb, #bbd4dd, #4a8196);
 }
 
+/* Hasta aquí Tema luminoso  */
+
+/* Tema dark - segundo  */
 :root.dark-theme {
   --c-text-primary: #fff;
   --c-text-secondary: #ccc;
@@ -92,7 +117,12 @@ button {
   --c-bg-primary: #000;
   --c-bg-secondary: #6200ff;
   --c-border-primary: #343434;
+  --c-background01: linear-gradient(#040d10, #1d5d72, #040d10, #1d5d72, #040d10);
 }
+
+/* Hasta aquí Tema dark  */
+
+/* Tema vaporwave - eliminar  */
 
 :root.vaporwave-theme {
   --font-family-primary: "Tinos", serif;
@@ -107,23 +137,16 @@ button {
   font-size: 18px;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: var(--font-family-primary);
-  color: var(--c-text-primary);
-  background-color: var(--c-bg-primary);
-  background: linear-gradient(#4a8196, #bbd4dd, #d6e5eb, #bbd4dd, #4a8196);
-  
-}
-
 .vaporwave-theme body {
   text-shadow: .125em .125em .125em hotpink;
   background-image: -webkit-gradient(linear, left top, right top, from(hotpink), to(#00c9c9));
   background-image: linear-gradient(to right, hotpink, #00c9c9);
 }
+
+/* Hasta aquí Tema vaporwave  */
+
+
+
 
 @-webkit-keyframes animate-background {
   50% {
@@ -147,23 +170,8 @@ h6 {
   font-weight: 500;
 }
 
-.hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  min-height: 100vh;
-}
+/* Sidebar */
 
-.vaporwave-theme .hero {
-  background-image: url("../img/david.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 30vh;
-  
-}
 
 .sidebar {
   border-right: 1px solid var(--c-border-primary);
@@ -224,20 +232,37 @@ h6 {
   height: 16px;
 }
 
-.container {
-  width: 85%;
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+
+/* Fin Sidebar */
+
+/* VENTANAS */
+
+/* 1.- Principal */
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  min-height: 100vh;
+  /* imagen  */
+  /* background-image: url("../img/shoe.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 30vh; */
+  /* fin de la imagen */
 }
 
-.container--narrow {
-  max-width: 1200px;
+.vaporwave-theme .hero {
+  background-image: url("../img/shoe.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 30vh;
+  
 }
 
-.container--narrowest {
-  max-width: 800px;
-}
 
 .hero-body {
   display: -webkit-box;
@@ -297,6 +322,7 @@ h6 {
 .hero-bio h1 + * {
   margin-top: 1.25em;
 }
+/* Punto del centro */
 
 .hero-bio h1:after {
   content: "";
@@ -311,11 +337,6 @@ h6 {
   left: -50px;
 }
 
-.vaporwave-theme .hero-bio h1:after {
-  background-color: transparent;
-  background-image: repeating-linear-gradient(45deg, lightblue, lightblue 2.5%, transparent 2.5%, transparent 5%);
-}
-
 @media (min-width: 800px) {
   .hero-bio h1:after {
     width: 200px;
@@ -324,6 +345,34 @@ h6 {
     left: -100px;
   }
 }
+
+.vaporwave-theme .hero-bio h1:after {
+  background-color: transparent;
+  background-image: repeating-linear-gradient(45deg, lightblue, lightblue 2.5%, transparent 2.5%, transparent 5%);
+}
+
+/*
+Fin del punto del centro */
+
+/* Fin de ventana 1.- Principal */
+
+
+.container {
+  width: 85%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container--narrow {
+  max-width: 1200px;
+}
+
+.container--narrowest {
+  max-width: 800px;
+}
+
+/* Selector de tema luminosos/dark */
 
 .theme-toggle, .theme-picker {
   border: 0;
@@ -423,6 +472,8 @@ h6 {
   -webkit-transition: 0.25s ease;
   transition: 0.25s ease;
 }
+
+/* fin selector de tema */
 
 .section {
   display: -webkit-box;
@@ -651,6 +702,8 @@ h6 {
           transform: translateX(0.25em);
 }
 
+/* footer */
+
 .footer {
   border-top: 1px solid var(--c-border-primary);
   padding-top: 2rem;
@@ -711,6 +764,8 @@ h6 {
 .footer-content a:hover {
   background-position: left top;
 }
+
+/* fin de footer */
 
 .project-list {
   display: -webkit-box;
@@ -846,6 +901,8 @@ h6 {
           transform: translateX(0.25em);
 }
 
+/* boton to top */
+
 .to-top-button-wrapper {
   position: -webkit-sticky;
   position: sticky;
@@ -866,7 +923,7 @@ h6 {
   pointer-events: auto;
   text-decoration: none;
   border-radius: 50%;
-  background-color: var(--c-bg-primary);
+  background-color: var(--c-background01);
   border: 2px solid currentColor;
   -webkit-box-shadow: 4px 4px 0 0 currentColor;
           box-shadow: 4px 4px 0 0 currentColor;
@@ -892,6 +949,9 @@ h6 {
 .to-top-button:hover {
   background-color: var(--c-link-primary);
 }
+
+/* fin boton to top */
+
 
 .page--landing {
   margin-top: 10vh;

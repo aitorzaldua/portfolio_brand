@@ -1,6 +1,6 @@
 backend: 
   name: github
-  repo: havardob/personal-site-v2
+  repo: aitorzaldua/portfolio_brand
   branch: main
 
 

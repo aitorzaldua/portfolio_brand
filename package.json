@@ -1,22 +1,22 @@
 {
-  "name": "personal-site-v2",
+  "name": "Startup-v01",
   "version": "1.0.0",
-  "description": "My personal website - new look and backend for 2021",
+  "description": "Startup v01",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/havardob/personal-site-v2.git"
+    "url": "git+https://github.com/aitorzaldua/portfolio_brand"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/havardob/personal-site-v2/issues"
+    "url": "https://github.com/aitorzaldua/portfolio_brand/issues"
   },
-  "homepage": "https://github.com/havardob/personal-site-v2#readme",
+  "homepage": "https://github.com/aitorzaldua/portfolio_brand#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "markdown-it": "^12.0.4",

@@ -269,10 +269,10 @@ h6 {
           align-items: stretch;
   min-height: 100vh;
   /* imagen  */
-  /* background-image: url("../img/shoe.png");
-  background-position: bottom right;
+  background-image: url("../img/gaman.png");
+  background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: 30vh; */
+  background-size: 30vh;
   /* fin de la imagen */
 }
 
@@ -328,6 +328,24 @@ h6 {
 .hero-bio h1 + * {
   margin-top: 1.25em;
 }
+
+/* Contenedeor de las letras */
+
+.container {
+  width: 85%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container--narrow {
+  max-width: 1200px;
+}
+
+.container--narrowest {
+  max-width: 800px;
+}
+
 /* Punto del centro */
 
 .hero-bio h1:after {
@@ -362,21 +380,6 @@ Fin del punto del centro */
 
 /* Fin de ventana 1.- Principal */
 
-
-.container {
-  width: 85%;
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container--narrow {
-  max-width: 1200px;
-}
-
-.container--narrowest {
-  max-width: 800px;
-}
 
 /* Selector de tema luminosos/dark */
 
@@ -1199,3 +1202,7 @@ Fin del punto del centro */
 .article-body img {
   height: auto;
 }
+
+
+/* new */
+

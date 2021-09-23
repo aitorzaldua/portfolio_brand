@@ -116,16 +116,21 @@ button {
 /* Tema luminoso  - frontal */
 
 :root {
-  --font-family-primary: "Urbanist", "Inter", sans-serif;
+  /* --font-family-primary: "Urbanist", "Inter", sans-serif;
   --font-family-secondary: "Fraunces", serif;
-  --font-family-tertiary: "Space Mono", monospace;
-  --c-text-primary: #000;
+  --font-family-tertiary: "Space Mono", monospace; */
+  --font-family-primary: "Tinos", serif;
+  --font-family-secondary: "Tinos", serif;
+  --font-family-tertiary: "Tinos", serif;
+  font-size: 18px;
+  text-shadow: .125em .125em .125em #161412;
+  --c-text-primary: #dad6d2;
   --c-text-secondary: #515e72;
   --c-link-primary: #e4eef2;
   --c-bg-primary: #c8dce4;
   --c-bg-secondary: #284652;
   --c-border-primary: #467f86;
-  --c-background01: linear-gradient(#4a8196, #bbd4dd, #d6e5eb, #bbd4dd, #4a8196);
+  --c-background01: linear-gradient(to right, #3d697b, #4a8196,#5b97ae, #84b1c2, #bbd4dd, #d6e5eb);
 }
 
 /* Hasta aquí Tema luminoso  */
@@ -138,8 +143,9 @@ button {
   --c-bg-primary: #000;
   --c-bg-secondary: #6200ff;
   --c-border-primary: #343434;
-  --c-background01: linear-gradient(#040d10, #1d5d72, #040d10, #1d5d72, #040d10);
+  --c-background01: linear-gradient(to right, #040d10, #1d5d72, #4a8196);
 }
+
 
 /* Hasta aquí Tema dark  */
 
@@ -269,10 +275,10 @@ h6 {
           align-items: stretch;
   min-height: 100vh;
   /* imagen  */
-  background-image: url("../img/gaman.png");
+  background-image: url("../img/wave004.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: 30vh;
+  background-size: 100%;
   /* fin de la imagen */
 }
 
@@ -348,7 +354,7 @@ h6 {
 
 /* Punto del centro */
 
-.hero-bio h1:after {
+/* .hero-bio h1:after {
   content: "";
   display: block;
   position: absolute;
@@ -374,7 +380,7 @@ h6 {
   background-color: transparent;
   background-image: repeating-linear-gradient(45deg, lightblue, lightblue 2.5%, transparent 2.5%, transparent 5%);
 }
-
+ */
 /*
 Fin del punto del centro */
 

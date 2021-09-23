@@ -54,6 +54,27 @@ a {
   color: inherit;
 }
 
+/* Pantalla 1 principal: */
+
+.hero-bio a {
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, var(--c-link-primary)), color-stop(50%, transparent));
+  background: linear-gradient(to right, var(--c-link-primary) 50%, transparent 50%);
+  background-size: 210% 100%;
+  background-position: right bottom;
+  -webkit-transition: 0.25s ease;
+  transition: 0.25s ease;
+  -webkit-box-shadow: 0 1px 0 0 currentColor;
+          box-shadow: 0 1px 0 0 currentColor;
+}
+
+.hero-bio a:hover {
+  /* background-position: left top; */
+color:var(--c-link-primary) ;
+}
+
+
+
 /* hasta aquí, textos subrayados */
 
 input,
@@ -100,7 +121,7 @@ button {
   --font-family-tertiary: "Space Mono", monospace;
   --c-text-primary: #000;
   --c-text-secondary: #515e72;
-  --c-link-primary: #ffe227;
+  --c-link-primary: #e4eef2;
   --c-bg-primary: #c8dce4;
   --c-bg-secondary: #284652;
   --c-border-primary: #467f86;
@@ -291,21 +312,6 @@ h6 {
   margin-top: 1em;
 }
 
-.hero-bio a {
-  text-decoration: none;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, var(--c-link-primary)), color-stop(50%, transparent));
-  background: linear-gradient(to right, var(--c-link-primary) 50%, transparent 50%);
-  background-size: 210% 100%;
-  background-position: right bottom;
-  -webkit-transition: 0.25s ease;
-  transition: 0.25s ease;
-  -webkit-box-shadow: 0 1px 0 0 currentColor;
-          box-shadow: 0 1px 0 0 currentColor;
-}
-
-.hero-bio a:hover {
-  background-position: left top;
-}
 
 .hero-bio h1 {
   font-size: 1.75rem;

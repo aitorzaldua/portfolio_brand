@@ -28,6 +28,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  
 }
 
 html {
@@ -52,6 +53,7 @@ img {
 /* textos subrayadas con enlace */
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 /* Pantalla 1 principal: */
@@ -66,11 +68,13 @@ a {
   transition: 0.25s ease;
   -webkit-box-shadow: 0 1px 0 0 currentColor;
           box-shadow: 0 1px 0 0 currentColor;
+  text-decoration: none;
 }
 
 .hero-bio a:hover {
   /* background-position: left top; */
-color:var(--c-link-primary) ;
+color:var(--c-link-primary);
+text-decoration: none;
 }
 
 
@@ -122,15 +126,15 @@ button {
   --font-family-primary: "Tinos", serif;
   --font-family-secondary: "Tinos", serif;
   --font-family-tertiary: "Tinos", serif;
-  font-size: 18px;
-  text-shadow: .125em .125em .125em #161412;
-  --c-text-primary: #dad6d2;
+  /* font-size: 18px; */
+  text-shadow: .125em .125em .125em #9fc2d0;
+  --c-text-primary: #102e4a;
   --c-text-secondary: #515e72;
   --c-link-primary: #e4eef2;
   --c-bg-primary: #c8dce4;
   --c-bg-secondary: #284652;
   --c-border-primary: #467f86;
-  --c-background01: linear-gradient(to right, #3d697b, #4a8196,#5b97ae, #84b1c2, #bbd4dd, #d6e5eb);
+  --c-background01: linear-gradient(to right, #518ca4, #76a8bc,#9fc2d0, #c8dce4, #f1f6f8);
 }
 
 /* Hasta aquí Tema luminoso  */
@@ -139,11 +143,12 @@ button {
 :root.dark-theme {
   --c-text-primary: #fff;
   --c-text-secondary: #ccc;
-  --c-link-primary: #6200ff;
+  --c-link-primary: #62adf8;
   --c-bg-primary: #000;
-  --c-bg-secondary: #6200ff;
+  --c-bg-secondary: #e4eef2;
   --c-border-primary: #343434;
-  --c-background01: linear-gradient(to right, #040d10, #1d5d72, #4a8196);
+  --c-background01: linear-gradient(to right, #0d171b, #213b45, #355e6e, #498197, #68a0b6);
+  text-shadow: .125em .125em .125em #355e6e;
 }
 
 
@@ -151,7 +156,7 @@ button {
 
 /* Tema vaporwave - eliminar  */
 
-:root.vaporwave-theme {
+/* :root.vaporwave-theme {
   --font-family-primary: "Tinos", serif;
   --font-family-secondary: "Tinos", serif;
   --font-family-tertiary: "Tinos", serif;
@@ -169,7 +174,7 @@ button {
   background-image: -webkit-gradient(linear, left top, right top, from(hotpink), to(#00c9c9));
   background-image: linear-gradient(to right, hotpink, #00c9c9);
 }
-
+ */
 /* Hasta aquí Tema vaporwave  */
 
 
@@ -233,6 +238,7 @@ h6 {
   position: -webkit-sticky;
   position: sticky;
   font-weight: 300;
+  
 }
 
 .sidebar-title span {
@@ -275,20 +281,20 @@ h6 {
           align-items: stretch;
   min-height: 100vh;
   /* imagen  */
-  background-image: url("../img/wave004.png");
+  background-image: url("../img/wave007.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 100%;
   /* fin de la imagen */
 }
 
-.vaporwave-theme .hero {
-  background-image: url("../img/shoe.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 30vh;
-  
-}
+ /* .vaporwave-theme .hero {
+   background-image: url("../img/shoe.png");
+   background-position: bottom right;
+   background-repeat: no-repeat;
+   background-size: 30vh;
+   
+ } */
 
 
 .hero-body {
@@ -327,7 +333,7 @@ h6 {
 
 @media (min-width: 800px) {
   .hero-bio h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -393,8 +399,8 @@ Fin del punto del centro */
   border: 0;
   padding: 0;
   border-radius: 50%;
-  background-color: var(--c-bg-secondary);
-  color: var(--c-text-primary);
+  background-color: transparent;
+  color: #d6e5eb;
   width: 48px;
   height: 48px;
   display: -webkit-box;
@@ -423,7 +429,7 @@ Fin del punto del centro */
           transform: scale(0) translateX(calc(-100% - 0.5rem)) translateY(-50%);
   z-index: 10;
   white-space: nowrap;
-  background-color: var(--c-bg-secondary);
+  background-color: #4a8196;
   padding: 0.25em 1em;
   border-radius: 99em;
   opacity: 0;
@@ -432,7 +438,8 @@ Fin del punto del centro */
 }
 
 .theme-toggle:hover, .theme-picker:hover {
-  background-color: var(--c-link-primary);
+  background-color: none;
+  cursor: pointer;
 }
 
 .theme-toggle:hover:before, .theme-picker:hover:before {
@@ -447,14 +454,14 @@ Fin del punto del centro */
           box-shadow: 0 0 0 2px currentColor;
 }
 
-.vaporwave-theme .theme-toggle, .vaporwave-theme .theme-picker {
+/* .vaporwave-theme .theme-toggle, .vaporwave-theme .theme-picker {
   --c-text-primary: #454545;
   border-radius: 0;
   border-left: 2px solid #FFF;
   border-top: 2px solid #FFF;
   border-bottom: 2px solid gray;
   border-right: 2px solid gray;
-}
+} */
 
 .theme-toggle {
   position: absolute;
@@ -559,8 +566,8 @@ Fin del punto del centro */
 .section-intro {
   -ms-flex-item-align: start;
       align-self: flex-start;
-  font-family: var(--font-family-tertiary);
-  font-size: 1rem;
+  font-family: "Urbanist", "Inter", sans-serif;
+  font-size: 1.2rem;
   font-weight: 300;
 }
 
@@ -579,7 +586,7 @@ Fin del punto del centro */
 }
 
 .section-rows .section-intro {
-  max-width: 450px;
+  max-width: 1200px;
 }
 
 .section-rows .section-content {
@@ -604,9 +611,10 @@ Fin del punto del centro */
 
 .section-actions a:hover {
   background-color: var(--c-link-primary);
+  text-decoration: none;
 }
 
-.vaporwave-theme .section-actions a {
+/* .vaporwave-theme .section-actions a {
   --c-text-primary: #454545;
   text-shadow: none;
   background-color: var(--c-bg-secondary);
@@ -615,7 +623,7 @@ Fin del punto del centro */
   border-top: 2px solid #FFF;
   border-bottom: 2px solid gray;
   border-right: 2px solid gray;
-}
+} */
 
 .article-list-item + .article-list-item {
   margin-top: 3rem;

@@ -1,11 +1,10 @@
 ---
-title: Ethereum
-description: It's the least humble thing in the world, calling yourself a
-  'unicorn', but that's what a designer who codes is supposedly called.
+title: The Internet of Assets
+description: Anything you can own can be represented, traded and put to use as non fungible tokens (NFT). You can tokenize your art and get royalties automatically every time it is resold. Or use a token of something you own to borrow. The possibilities just keep growing. Goodbye to the Internet of data, welcome to the Internet of value.
 ---
 ![](/img/unicorn.jpg)
 
-## Background
+## Background 
 
 I'm torn between using my name as an identifier for my personal site or whether or not I should have a brand, a logo of some sort. I'm not a business or a freelance developer, so a personal brand feels like an overkill. 
 

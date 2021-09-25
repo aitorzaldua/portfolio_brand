@@ -1,10 +1,9 @@
 ---
-title: How to Create a Shrinking Header on Scroll Without JavaScript
-description: Imagine a header of a website that is nice and thick, with plenty
-  of padding on top and bottom of the content. As you scroll down, it shrinks up
-  on itself, reducing some of that padding, making more screen real estate for
-  other content...
+title: 9 Companies That Use Rust in Production
+description: Who uses Rust, and what are the benefits of choosing this programming language for your stack?
 ---
-*This post was originally posted to [CSS-tricks.com](https://css-tricks.com).*
+If you haven’t yet heard, Rust is one of the most promising and most loved programming languages out there. First created at Mozilla, it has since been adopted by companies like Dropbox, Microsoft, Facebook, and others. Rust’s main benefit is that it enables C-like performance while still keeping the memory safety that we are used to when developing with languages like JavaScript and Python. In this article, I will look at nine large companies that use Rust and delve into the reasons for their choice.(..)
 
-*[Read the full post on CSS-tricks](https://css-tricks.com/how-to-create-a-shrinking-header-on-scroll-without-javascript/)*
+*This post was originally posted by [devgenius](https://blog.devgenius.io/).*
+
+[Read the full post here](https://blog.devgenius.io/9-companies-that-use-rust-in-production-9b8f6634b7b4)

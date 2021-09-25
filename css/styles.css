@@ -2,9 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Tinos:ital,wght@1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
-
-/* que es after/before? */
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
 *,
 *:before,
 *:after {
@@ -28,7 +27,6 @@ blockquote,
 dl,
 dd {
   margin: 0;
-  
 }
 
 html {
@@ -123,8 +121,8 @@ button {
   /* --font-family-primary: "Urbanist", "Inter", sans-serif;
   --font-family-secondary: "Fraunces", serif;
   --font-family-tertiary: "Space Mono", monospace; */
-  --font-family-primary: "Tinos", serif;
-  --font-family-secondary: "Tinos", serif;
+  --font-family-primary: 'IBM Plex Sans', sans-serif;
+  --font-family-secondary: 'Rubik', sans-serif;
   --font-family-tertiary: "Tinos", serif;
   /* font-size: 18px; */
   text-shadow: .125em .125em .125em #9fc2d0;
@@ -135,6 +133,11 @@ button {
   --c-bg-secondary: #284652;
   --c-border-primary: #467f86;
   --c-background01: linear-gradient(to right, #518ca4, #76a8bc,#9fc2d0, #c8dce4, #f1f6f8);
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 22px;
 }
 
 /* Hasta aquí Tema luminoso  */
@@ -790,6 +793,8 @@ Fin del punto del centro */
 
 /* fin de footer */
 
+/* Ventana de services */
+
 .project-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -857,9 +862,11 @@ Fin del punto del centro */
           box-shadow: 0 1px 0 0 currentColor;
 }
 
+
 .project-list-item-title a:hover {
-  background-position: left top;
-}
+  /* background-position: left top; */
+  color: var(--c-link-primary);
+} 
 
 .project-list-item-title + * {
   margin-top: 1em;
@@ -923,6 +930,8 @@ Fin del punto del centro */
   -webkit-transform: translateX(0.25em);
           transform: translateX(0.25em);
 }
+
+/*fin de ventana de services*/
 
 /* boton to top */
 

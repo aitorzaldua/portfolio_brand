@@ -7,7 +7,5 @@ icon:
 order: 2
 ---
 <!-- Day to day I work as a front-end designer at [Bouvet](https://bouvet.no), but here's some of the stuff I've done personally recently. -->
-Digital Transformation is not about placing our organization in the cloud and handing over the control and destiny of our organization to the big techs. 
-Digital Transformation is about implementing the latest solutions that will enable us to drive our company to success. 
-Do you have an idea? We can help you assess your needs, create a technical concept and prototype implementation. We offer a wide range of development services within the Blockchain ecosystem and help you choose the best option for your project:
-
+According to big companies, Digital Transformation is about handing over control of your organization to them and expecting their business decisions to be good for you. This is not correct. There are other ways.
+Do you have an idea? We can help you assess your needs, choose the right technology and create an implementation of it. We offer a wide range of development services within the Blockchain Ecosystem to help you choose the best option for your project.

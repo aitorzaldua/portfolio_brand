@@ -6,20 +6,12 @@ id: pens
 icon: 
 order: 3
 ---
-I'm an avid user of [CodePen](https://codepen.io/havardob) and huge fan of their community. It's become somewhat a daily hobby of mine to use this platform to recreate Dribbble shots or explore the many possiblities CSS has to offer.
+Rust's innovations are at the core of the most important projects in the Blockchain ecosystem such as Polkadot, Holochain or Solana. But not only them. Big tech companies such as Microsoft and AWS are gradually replacing C,C++ or C# with this language, and it is no coincidence. The increase of criminal organizations dedicated to cybercrime makes traditional programming languages, with their memory leaks, their undefined behaivor or their enums, the right victim. 
 
-A few of my pens have been featured in the [CodePen Spark](https://codepen.io/spark) newsletter: 
+Rust, however, is a language created for security. In a decentralized environment, where security is implemented in software, trusting the code is a must. 
 
-* [Edition 177](https://codepen.io/spark/177)
-* [Edition 184](https://codepen.io/spark/184)
-* [Edition 193](https://codepen.io/spark/193)
-* [Edition 227](https://codepen.io/spark/227)
-* [Edition 233](https://codepen.io/spark/233)
-* [Edition 241](https://codepen.io/spark/241)
-* [Edition 250](https://codepen.io/spark/250)
+But Rust is not just about security. Its lack of Garbage Collector enables it to be one of the fastest languages out there. Code errors are detected at compile time and not at runtime. Its fearless concurrency allows to take advantage of every corner of the CPU,... 
 
-One of my pens also made it into the [The Most Hearted Pens of 2020](https://codepen.io/2020/popular/pens/4) list. 
-
-Here are some of my personal favorites.
+We are a company that does not believe in excuses. We love perfection, that's why we work mainly with Rust, so that the customer never worries about his software. Never.
 
 

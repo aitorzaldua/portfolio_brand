@@ -125,14 +125,20 @@ button {
   --font-family-secondary: 'Rubik', sans-serif;
   --font-family-tertiary: "Tinos", serif;
   /* font-size: 18px; */
-  text-shadow: .125em .125em .125em #9fc2d0;
+  
+  /*Opt 1*/
   --c-text-primary: #102e4a;
   --c-text-secondary: #515e72;
+  text-shadow: .125em .125em .125em #9fc2d0;
+
   --c-link-primary: #e4eef2;
+
   --c-bg-primary: #c8dce4;
   --c-bg-secondary: #284652;
   --c-border-primary: #467f86;
-  --c-background01: linear-gradient(to right, #518ca4, #76a8bc,#9fc2d0, #c8dce4, #f1f6f8);
+  /* --c-background01: linear-gradient(to right, #518ca4, #76a8bc,#9fc2d0, #c8dce4, #f1f6f8); */
+  /*Opt 2**/
+ --c-background01: linear-gradient(to right, #1fc7ff, #47d1ff,#70e7ff, #adf1ff, #ebfcff);
 }
 
 p {
@@ -150,8 +156,12 @@ p {
   --c-bg-primary: #000;
   --c-bg-secondary: #e4eef2;
   --c-border-primary: #343434;
-  --c-background01: linear-gradient(to right, #0d171b, #213b45, #355e6e, #498197, #68a0b6);
+ /*  --c-background01: linear-gradient(to right, #0d171b, #213b45, #355e6e, #498197, #68a0b6); */
   text-shadow: .125em .125em .125em #355e6e;
+
+  /*Opt 2**/
+  --c-background01: linear-gradient(to right, #001f29, #003d52, #005c7a, #007aa3, #00a8e0);
+
 }
 
 
@@ -284,7 +294,9 @@ h6 {
           align-items: stretch;
   min-height: 100vh;
   /* imagen  */
-  background-image: url("../img/wave007.png");
+ /* background-image: url("../img/water002.png"); */
+  /* background-image: url("../img/steel001.png"); */
+  background-image: url("../img/beee002.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 100%;

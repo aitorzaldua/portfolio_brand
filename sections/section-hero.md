@@ -16,4 +16,6 @@ We use Rust as our core language because it is the most secure language in the w
 
 You can read our news feed to know more about the Decentralized Ecosystem.[⮚](#writing)
 
+Contact us in *here@company.com*
+
 <!-- P2P decentralized network: [Holochain](#projects). The new era of databases [Blockchain](#pens) Ethereum [Smart Contract](#writing). Security with [Rust](https://www.rust-lang.org/) -->

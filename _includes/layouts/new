@@ -1,0 +1,82 @@
+   <main class="main">
+            <section class="section"id="services">
+    <div class="sidebar">
+        <h1 class="sidebar-title">
+            <span>
+                
+                SERVICES
+            </span>
+        </h1>
+    </div>
+    <div class="section-body">
+        <div class="container section-rows">
+            <div class="section-intro">
+                <!-- Day to day I work as a front-end designer at [Bouvet](https://bouvet.no), but here's some of the stuff I've done personally recently. -->
+<p>According to big companies, Digital Transformation is about handing over control of your organization to them and expecting their business decisions to be good for you. This is not correct. There are other ways.<br>
+Do you have an idea? We can help you assess your needs, choose the right technology and create an implementation of it. We offer a wide range of development services within the Blockchain Ecosystem to help you choose the best option for your project.</p>
+
+            </div>
+            <div class="section-content">
+                <div class="project-list">
+    
+        <article class="project-list-item">
+            <h2 class="project-list-item-title">
+                <a href="/projects/1_holochain/">
+                    Holochain 1
+                </a>
+            </h2>
+            <div class="project-list-item-description">
+                vaya n open-source framework for creating peer-to-peer applications that are secure, reliable, and fast. Instead of depending on servers, Holochain applications connect user devices directly to each other in secure networks. This gives users the best of both worlds — the autonomy and availability of locally installed software, with the power and redundancy of cloud software. Application developers, in turn, no longer have to maintain and pay for cloud hosting.
+            </div>
+            <a href="/projects/1_holochain/" class="project-list-item-permalink" aria-label="About 'Holochain'">
+            
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>About the project</span>
+            </a>
+        </article>
+    
+        <article class="project-list-item">
+            <h2 class="project-list-item-title">
+                <a href="/projects/2_substrate/">
+                    Substrate
+                </a>
+            </h2>
+            <div class="project-list-item-description">
+                Substrate is the perfect framework to build your blockchain. Using Substrate&#39;s palettes you can easily create whatever you want, or create your own custom logic. Either way, Substrate makes building a blockchain much faster, easier and more secure than ever. Substrate is Smart Contract Ready. It has a Wasm smart contract platform touse out of the box. Because Substrate uses Wasm, you can build your smart contracts using any compatible language. Substrate have built ink, a Rust-based eDSL, for this purpose.
+            </div>
+            <a href="/projects/2_substrate/" class="project-list-item-permalink" aria-label="About 'Substrate'">
+            
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>About the project</span>
+            </a>
+        </article>
+    
+        <article class="project-list-item">
+            <h2 class="project-list-item-title">
+                <a href="/projects/3_nft/">
+                    The Internet of Assets
+                </a>
+            </h2>
+            <div class="project-list-item-description">
+                Anything you can own can be represented, traded and put to use as non fungible tokens (NFT). You can tokenize your art and get royalties automatically every time it is resold. Or use a token of something you own to borrow. The possibilities just keep growing. Goodbye to the Internet of data, welcome to the Internet of value.
+            </div>
+            <a href="/projects/3_nft/" class="project-list-item-permalink" aria-label="About 'The Internet of Assets'">
+            
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>About the project</span>
+            </a>
+        </article>
+    
+</div>
+            </div>
+        </div>
+    </div>

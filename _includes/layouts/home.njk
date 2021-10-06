@@ -9,6 +9,7 @@ layout: layouts/base.njk
 {%- endfor -%}
 
 <main class="main">
+
     {%- for section in collections.sections -%}
         {% if section.data.section_id == 'posts' %}
             {% include 'sections/section-posts.njk' %}

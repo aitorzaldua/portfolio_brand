@@ -4,6 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,500&display=swap');
+
+
+
 *,
 *:before,
 *:after {
@@ -52,6 +58,7 @@ img {
 a {
   color: inherit;
   text-decoration: none;
+  
 }
 
 /* Pantalla 1 principal: */
@@ -74,8 +81,6 @@ a {
 color:var(--c-link-primary);
 text-decoration: none;
 }
-
-
 
 /* hasta aquí, textos subrayados */
 
@@ -101,8 +106,6 @@ button {
 
 /* hasta aquí button */
 
-
-
 @media (prefers-reduced-motion: reduce) {
   * {
     -webkit-animation-duration: 0.01ms !important;
@@ -118,32 +121,32 @@ button {
 /* Tema luminoso  - frontal */
 
 :root {
-  /* --font-family-primary: "Urbanist", "Inter", sans-serif;
+/*   --font-family-primary: "Urbanist", "Inter", sans-serif;
   --font-family-secondary: "Fraunces", serif;
   --font-family-tertiary: "Space Mono", monospace; */
-  --font-family-primary: 'IBM Plex Sans', sans-serif;
-  --font-family-secondary: 'Rubik', sans-serif;
-  --font-family-tertiary: "Tinos", serif;
-  /* font-size: 18px; */
+  --font-family-primary: 'Roboto', sans-serif;
+  --font-family-secondary: 'Libre Franklin', sans-serif;
+  --font-family-tertiary: "Tinos", serif; 
+ /*  font-size: 24px; */
   
   /*Opt 1*/
   --c-text-primary: #102e4a;
   --c-text-secondary: #515e72;
-  text-shadow: .125em .125em .125em #9fc2d0;
-
+  /* text-shadow: .125em .125em .125em #9fc2d0; */
   --c-link-primary: #e4eef2;
-
   --c-bg-primary: #c8dce4;
   --c-bg-secondary: #284652;
   --c-border-primary: #467f86;
-  /* --c-background01: linear-gradient(to right, #518ca4, #76a8bc,#9fc2d0, #c8dce4, #f1f6f8); */
+  /* --c-background01: linear-gradient(#518ca4, #76a8bc,#9fc2d0, #c8dce4, #f1f6f8);
+ */
+ background:white;
   /*Opt 2**/
- --c-background01: linear-gradient(to right, #1fc7ff, #47d1ff,#70e7ff, #adf1ff, #ebfcff);
+/*  --c-background01: linear-gradient(to right, #1fc7ff, #47d1ff,#70e7ff, #adf1ff, #ebfcff); */
 }
 
 p {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 /* Hasta aquí Tema luminoso  */
@@ -156,42 +159,17 @@ p {
   --c-bg-primary: #000;
   --c-bg-secondary: #e4eef2;
   --c-border-primary: #343434;
- /*  --c-background01: linear-gradient(to right, #0d171b, #213b45, #355e6e, #498197, #68a0b6); */
+ --c-background01: linear-gradient(to right, #0d171b, #213b45, #355e6e, #498197, #68a0b6);
   text-shadow: .125em .125em .125em #355e6e;
 
   /*Opt 2**/
-  --c-background01: linear-gradient(to right, #001f29, #003d52, #005c7a, #007aa3, #00a8e0);
+  /* --c-background01: linear-gradient(to right, #001f29, #003d52, #005c7a, #007aa3, #00a8e0); */
+
+  
 
 }
-
 
 /* Hasta aquí Tema dark  */
-
-/* Tema vaporwave - eliminar  */
-
-/* :root.vaporwave-theme {
-  --font-family-primary: "Tinos", serif;
-  --font-family-secondary: "Tinos", serif;
-  --font-family-tertiary: "Tinos", serif;
-  --c-text-primary: #c1ffff;
-  --c-text-secondary: #c1ffff;
-  --c-bg-primary: transparent;
-  --c-bg-secondary: #d3d3d3;
-  --c-link-primary: hotpink;
-  --c-border-primary: cyan;
-  font-size: 18px;
-}
-
-.vaporwave-theme body {
-  text-shadow: .125em .125em .125em hotpink;
-  background-image: -webkit-gradient(linear, left top, right top, from(hotpink), to(#00c9c9));
-  background-image: linear-gradient(to right, hotpink, #00c9c9);
-}
- */
-/* Hasta aquí Tema vaporwave  */
-
-
-
 
 @-webkit-keyframes animate-background {
   50% {
@@ -217,18 +195,18 @@ h6 {
 
 /* Sidebar */
 
-
 .sidebar {
   border-right: 1px solid var(--c-border-primary);
   padding: 0.75rem 1rem;
   position: relative;
   /* background-color: var(--c-bg-primary); */
-  background: linear-gradient(#4a8196, #bbd4dd, #d6e5eb, #bbd4dd, #4a8196);
+  /* background: linear-gradient(#4a8196, #bbd4dd, #d6e5eb, #bbd4dd, #4a8196); */
+  background: white;
 }
 
 @media (min-width: 800px) {
   .sidebar {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.0rem;
   }
 }
 
@@ -296,20 +274,13 @@ h6 {
   /* imagen  */
  /* background-image: url("../img/water002.png"); */
   /* background-image: url("../img/steel001.png"); */
-  background-image: url("../img/beee002.png");
+  /* background-image: url("../img/beee001.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; */
   /* fin de la imagen */
 }
 
- /* .vaporwave-theme .hero {
-   background-image: url("../img/shoe.png");
-   background-position: bottom right;
-   background-repeat: no-repeat;
-   background-size: 30vh;
-   
- } */
 
 
 .hero-body {
@@ -348,7 +319,7 @@ h6 {
 
 @media (min-width: 800px) {
   .hero-bio h1 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 
@@ -361,7 +332,7 @@ h6 {
 .container {
   width: 85%;
   max-width: 1400px;
-  margin-left: auto;
+  margin-left: 15%;
   margin-right: auto;
 }
 
@@ -373,37 +344,6 @@ h6 {
   max-width: 800px;
 }
 
-/* Punto del centro */
-
-/* .hero-bio h1:after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 50%;
-  background-color: var(--c-bg-secondary);
-  z-index: -1;
-  width: 100px;
-  height: 100px;
-  top: -30px;
-  left: -50px;
-}
-
-@media (min-width: 800px) {
-  .hero-bio h1:after {
-    width: 200px;
-    height: 200px;
-    top: -60px;
-    left: -100px;
-  }
-}
-
-.vaporwave-theme .hero-bio h1:after {
-  background-color: transparent;
-  background-image: repeating-linear-gradient(45deg, lightblue, lightblue 2.5%, transparent 2.5%, transparent 5%);
-}
- */
-/*
-Fin del punto del centro */
 
 /* Fin de ventana 1.- Principal */
 
@@ -444,7 +384,6 @@ Fin del punto del centro */
           transform: scale(0) translateX(calc(-100% - 0.5rem)) translateY(-50%);
   z-index: 10;
   white-space: nowrap;
-  background-color: #4a8196;
   padding: 0.25em 1em;
   border-radius: 99em;
   opacity: 0;
@@ -469,14 +408,6 @@ Fin del punto del centro */
           box-shadow: 0 0 0 2px currentColor;
 }
 
-/* .vaporwave-theme .theme-toggle, .vaporwave-theme .theme-picker {
-  --c-text-primary: #454545;
-  border-radius: 0;
-  border-left: 2px solid #FFF;
-  border-top: 2px solid #FFF;
-  border-bottom: 2px solid gray;
-  border-right: 2px solid gray;
-} */
 
 .theme-toggle {
   position: absolute;
@@ -629,16 +560,6 @@ Fin del punto del centro */
   text-decoration: none;
 }
 
-/* .vaporwave-theme .section-actions a {
-  --c-text-primary: #454545;
-  text-shadow: none;
-  background-color: var(--c-bg-secondary);
-  border-radius: 0;
-  border-left: 2px solid #FFF;
-  border-top: 2px solid #FFF;
-  border-bottom: 2px solid gray;
-  border-right: 2px solid gray;
-} */
 
 .article-list-item + .article-list-item {
   margin-top: 3rem;

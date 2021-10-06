@@ -8,15 +8,15 @@
         </h1>
     </div>
     <div class="section-body">
-        <div class="container section-columns">
+        <div class="container section-rows">
             <div class="section-intro">
                 {{ section.data.content | safe }}
             </div>
             <div class="section-content">
-                {% include "partials/penlist.njk" %}
-                {# <div class="section-actions">
-                    <a href="https://codepen.io/havardob">More pens</a>
-                </div> #}
+                {% include "partials/projectlist.njk" %}
+                <!-- <div class="section-actions">
+                    <a href="/pens/">More projects</a>
+                </div> -->
             </div>
         </div>
     </div>

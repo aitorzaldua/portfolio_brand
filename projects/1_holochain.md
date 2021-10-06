@@ -3,7 +3,7 @@ title: Holochain
 description: Holochain is an open-source framework for creating peer-to-peer applications that are secure, reliable, and fast. Instead of depending on servers, Holochain applications connect user devices directly to each other in secure networks. This gives users the best of both worlds — the autonomy and availability of locally installed software, with the power and redundancy of cloud software. Application developers, in turn, no longer have to maintain and pay for cloud hosting.
 read_more: About the project
 ---
-![](/img/holochain.png)
+<!-- ![](/img/holochain.png) -->
 
 
 ## What is Holochain?

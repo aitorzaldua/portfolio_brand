@@ -15,4 +15,3 @@ But Rust is not just about security. Its lack of Garbage Collector enables it to
 
 We are a company that does not believe in excuses. We love perfection, that's why we work mainly with Rust, so that the customer never worries about his software. Never.
 
-![](/img/rust.png)

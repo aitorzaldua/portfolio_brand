@@ -9,8 +9,8 @@ order: 1
 
 Labs provides a full suite of expert services to take your decentralised system from idea to production.
 
-We take your vision to production [Services](#projects)
-We are core developers in the most transformative decentralised projects [Projects](#page2)
+We take your vision to production [Services](#services)
+We are core developers in the most transformative decentralised projects [Projects](#pens)
 Read our latest case studies [News](#writing)
 
 <!-- # Security, Reliability and Scalability, while preserving your Independency. A full Ecosystem that provides self-owned data, a distributed database, and peer accountability. -->

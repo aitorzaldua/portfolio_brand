@@ -4,14 +4,15 @@ title: WELCOME
 section_id: hero
 order: 1
 ---
-
 # We design and build core infrastructure for the decentralised web.
 
-Labs provides a full suite of expert services to take your decentralised system from idea to production.
+NameLabs provides a full suite of expert services to take your decentralised system from idea to production.
 
-We take your vision to production [Services](#services)
-We are core developers in the most transformative decentralised projects [Projects](#pens)
-Read our latest case studies [News](#writing)
+We are core developers in the most transformative decentralised projects  ➢  [PROJECTS](#pens)
+
+We take your vision to production  ➢  [SERVICES](#services)
+
+Read our latest case studies  ➢  [ARTICLES](#writing)
 
 <!-- # Security, Reliability and Scalability, while preserving your Independency. A full Ecosystem that provides self-owned data, a distributed database, and peer accountability. -->
 

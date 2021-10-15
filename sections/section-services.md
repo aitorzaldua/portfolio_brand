@@ -4,7 +4,7 @@ title: SERVICES
 section_id: projects
 id: services
 icon: 
-order: 2
+order: 3
 ---
 
 # We take your vision to production.

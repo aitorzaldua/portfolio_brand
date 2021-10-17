@@ -4,4 +4,3 @@ title: Writing
 permalink: /posts/
 ---
 
-Have a read

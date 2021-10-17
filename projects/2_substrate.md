@@ -4,7 +4,7 @@ description: Substrate is the perfect framework to build your blockchain. Using 
 
 ---
 
-<!-- ![](/img/substrate.png) -->
+![](/img/substrate.png)
 
 ## What is Substrate?
 

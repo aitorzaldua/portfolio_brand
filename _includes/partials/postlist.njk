@@ -1,11 +1,9 @@
 <div class="article-list">
     {% for post in collections.posts %}
         <article class="article-list-item">
-            <h2 class="article-list-item-title">
-                <a href="{{ post.url | url }}">
+            <h3 class="article-list-item-title">
                     {{ post.data.title }}
-                </a>
-            </h2>
+            </h3>
             <div class="article-list-item-excerpt">
                 {{ post.data.description }}
             </div>

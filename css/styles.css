@@ -27,6 +27,10 @@ dd {
   margin: 0;
 }
 
+h2 {
+    color:#191d24;
+  }
+
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -56,12 +60,12 @@ img {
     --c-text-primary: #9EA9BD;
     --c-text-secondary: #191d24;
 
-    --c-link-primary:yellow;
-    --c-box-shadow: #a7ddea;
+    --c-link-primary:#599da4;
+    --c-box-shadow: #57b29b;
 
-    --c-bg-primary: green;
-    --c-bg-secondary: pink;
-    --c-bg-tertiary: #599da4;
+    --c-bg-primary: #57b29b;
+    --c-bg-secondary: #599da4;
+    --c-bg-tertiary: #7988a4;
 
     --c-border-primary: #467f86;
 
@@ -154,10 +158,11 @@ h6 {
 /* Sidebar */
 
 .sidebar {
+  border-style: double;
   border-right: 1px solid var(--c-border-primary);
   padding: 0.75rem 1rem;
   position: relative;
-  background-color: var(--c-bg-tertiary);
+  background-color: var(--c-bg-primary);
 
 }
 
@@ -173,6 +178,7 @@ h6 {
   position: absolute;
   border-radius: 50%;
   border: 1px solid var(--c-border-primary);
+  border-style: double;
   background-color: var(--c-bg-primary);
   width: 11px;
   height: 11px;
@@ -200,7 +206,7 @@ h6 {
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
   font-size: 1rem;
-  font-family: var(--font-family-tertiary);
+  font-family: var(--font-family-secondary);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -441,6 +447,7 @@ h6 {
   font-size: 1.375rem;
   line-height: 1.375;
   text-transform: capitalize;
+  text-decoration: none;
 }
 
 @media (min-width: 800px) {
@@ -450,7 +457,6 @@ h6 {
 }
 
 .article-list-item-title a {
-  text-decoration: none;
   text-decoration: none;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, var(--c-link-primary)), color-stop(50%, transparent));
   background: linear-gradient(to right, var(--c-link-primary) 50%, transparent 50%);
@@ -464,6 +470,7 @@ h6 {
 
 .article-list-item-title a:hover {
   background-position: left top;
+  text-decoration: none;
 }
 
 .article-list-item-title + .article-list-item-excerpt {
@@ -473,7 +480,7 @@ h6 {
 .article-list-item-excerpt {
   font-size: 1rem;
   font-weight: 500;
-  color: var(--c-text-secondary);
+  color: var(--c-text-primary);
 }
 
 @media (min-width: 800px) {
@@ -524,7 +531,7 @@ h6 {
 
 .article-list-item-permalink:hover span {
   -webkit-transform: translateX(0.25em);
-          transform: translateX(0.25em);
+          transform: translateX(0.25em); 
 }
 
 /* footer */
@@ -602,6 +609,7 @@ h6 {
       flex-wrap: wrap;
   margin-left: 2px;
   margin-top: 2px;
+  
 }
 
 .project-list-item {
@@ -652,7 +660,6 @@ h6 {
 }
 
 .project-list-item-title a {
-  text-decoration: none;
   text-decoration: none;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, var(--c-link-primary)), color-stop(50%, transparent));
   background: linear-gradient(to right, var(--c-link-primary) 50%, transparent 50%);
@@ -797,7 +804,8 @@ h6 {
 
 .page-body {
   padding-bottom: 5rem;
-  margin-top: 10vh;
+  background-color: .page-body;
+  /* margin-top: 10vh; */
 }
 
 .article {
@@ -806,6 +814,7 @@ h6 {
 
 .subpage-navigation {
   padding: 1rem;
+  background-color: var(--c-background01);
 }
 
 .subpage-navigation-link {
@@ -908,7 +917,7 @@ h6 {
 .article-body {
   font-size: 1rem;
   margin-top: 2em;
-  color: var(--c-text-secondary);
+  color: var(--c-text-primary);
   font-weight: 500;
 }
 
@@ -1050,8 +1059,8 @@ h6 {
   border-radius: 50%;
   background-color: transparent;
   font-family: var(--font-family-primary);
-  font-size: 0.8em;
-  color: var(--c-text-primary);
+  font-size: 1.3em;
+  color: #abd8cd;
   width: 200px;
   height: 200px;
   display: -webkit-box;
@@ -1105,10 +1114,10 @@ h6 {
   -moz-animation: fadeOut 1 3s ease-in;
   -o-animation: fadeOut 1 3s ease-in;
   animation: fadeOut 1 3s ease-in;
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  -o-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s;
   }
   
   #head3 {
@@ -1116,91 +1125,91 @@ h6 {
   -moz-animation: fadeOut 1 3s ease-in;
   -o-animation: fadeOut 1 3s ease-in;
   animation: fadeOut 1 3s ease-in;
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  -o-animation-delay: 8s;
-  animation-delay: 8s;
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  animation-delay: 6s;
   }
   
   #head4 {
   -webkit-animation: fadeOut 1 3s ease-in;
   -moz-animation: fadeOut 1 3s ease-in;
   -o-animation: fadeOut 1 3s ease-in;
-  animation: fadeOut 1 5s ease-in;
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -o-animation-delay: 12s;
-  animation-delay: 12s;
+  animation: fadeOut 1 3s ease-in;
+  -webkit-animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  -o-animation-delay: 9s;
+  animation-delay: 9s;
   }
 
   #head5 {
     -webkit-animation: fadeOut 1 3s ease-in;
     -moz-animation: fadeOut 1 3s ease-in;
     -o-animation: fadeOut 1 3s ease-in;
-    animation: fadeOut 1 5s ease-in;
-    -webkit-animation-delay: 16s;
-    -moz-animation-delay: 16s;
-    -o-animation-delay: 16s;
-    animation-delay: 16s;
+    animation: fadeOut 1 3s ease-in;
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    animation-delay: 12s;
     }
 
   #head6 {
     -webkit-animation: fadeOut 1 3s ease-in;
     -moz-animation: fadeOut 1 3s ease-in;
     -o-animation: fadeOut 1 3s ease-in;
-    animation: fadeOut 1 5s ease-in;
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    animation-delay: 18s;
+    animation: fadeOut 1 3s ease-in;
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    -o-animation-delay: 15s;
+    animation-delay: 15s;
   }
 
   #head7 {
       -webkit-animation: fadeOut 1 3s ease-in;
     -moz-animation: fadeOut 1 3s ease-in;
     -o-animation: fadeOut 1 3s ease-in;
-    animation: fadeOut 1 5s ease-in;
-    -webkit-animation-delay: 20s;
-    -moz-animation-delay: 20s;
-    -o-animation-delay: 20s;
-    animation-delay: 20s;
+    animation: fadeOut 1 3s ease-in;
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    animation-delay: 18s;
   }
 
   #head8 {
     -webkit-animation: fadeOut 1 3s ease-in;
   -moz-animation: fadeOut 1 3s ease-in;
   -o-animation: fadeOut 1 3s ease-in;
-  animation: fadeOut 1 5s ease-in;
-  -webkit-animation-delay: 24s;
-  -moz-animation-delay: 24s;
-  -o-animation-delay: 24s;
-  animation-delay: 24s;
+  animation: fadeOut 1 3s ease-in;
+  -webkit-animation-delay: 21s;
+  -moz-animation-delay: 21s;
+  -o-animation-delay: 21s;
+  animation-delay: 21s;
 }
 
 #head9 {
   -webkit-animation: fadeOut 1 3s ease-in;
 -moz-animation: fadeOut 1 3s ease-in;
 -o-animation: fadeOut 1 3s ease-in;
-animation: fadeOut 1 5s ease-in;
--webkit-animation-delay: 28s;
--moz-animation-delay: 28s;
--o-animation-delay: 28s;
-animation-delay: 28s;
+animation: fadeOut 1 3s ease-in;
+-webkit-animation-delay: 24s;
+-moz-animation-delay: 24s;
+-o-animation-delay: 24s;
+animation-delay: 24s;
 }
 
   #head10, #head12 {
-  -webkit-animation: finalFade 1 5s ease-in;
-  -moz-animation: finalFade 1 5s ease-in;
-  -o-animation: finalFade 1 5s ease-in;
-  animation: finalFade 1 5s ease-in;
+  -webkit-animation: finalFade 1 3s ease-in;
+  -moz-animation: finalFade 1 3s ease-in;
+  -o-animation: finalFade 1 3s ease-in;
+  animation: finalFade 1 3s ease-in;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   -o-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 32s;
-  -moz-animation-delay: 32s;
-  -o-animation-delay: 32s;
-  animation-delay: 32s;
+  -webkit-animation-delay: 27s;
+  -moz-animation-delay: 27s;
+  -o-animation-delay: 27s;
+  animation-delay: 27s;
   }
 
 

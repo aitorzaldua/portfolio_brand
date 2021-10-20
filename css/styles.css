@@ -69,12 +69,7 @@ img {
 
     --c-border-primary: #467f86;
 
-
-  /* --c-background01: linear-gradient(#191d24 24.15%, #aab3c5 24.15% 48.2%, #7988a4 48.2% 72.45%, #536079 72.45% 100%);  */
   --c-background01: #191d24; 
-
-      /* text-shadow: .125em .125em .125em #9fc2d0; */
-      /*  font-size: 24px; */
 
   }
 
@@ -103,7 +98,6 @@ a {
 }
 
 .hero-bio a:hover {
-  /* background-position: left top; */
 color:var(--c-link-primary);
 text-decoration: none;
 }
@@ -193,7 +187,6 @@ h6 {
   position: sticky;
   font-weight: 300;
   color: var(--c-text-secondary);
-  
 }
 
 .sidebar-title span {
@@ -235,19 +228,14 @@ h6 {
       -ms-flex-align: stretch;
           align-items: stretch;
   min-height: 100vh;
-  
   /* imagen  */
 
   background-image: url("../img/try04.png");
   background-position: 90%;
   background-repeat: no-repeat;
   background-size: 30%; 
-
-
   /* fin de la imagen */
 }
-
-
 
 .hero-body {
   flex-direction: column;
@@ -899,7 +887,7 @@ h6 {
 .article-header-description {
   font-size: 1.125rem;
   margin-top: 1em;
-  color: var(--c-text-secondary);
+  color: var(--c-text-primary);
   font-weight: 500;
 }
 
@@ -1288,4 +1276,18 @@ animation-delay: 24s;
   30%{opacity: 1;}
   80%{opacity: .9;}
   100%{opacity: 1;}
+  }
+
+
+  @media only screen and (max-width: 800px) {
+      .messages, .messages_2, .bodyMessage {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        color: white;
+        font-size: 1em;
+      }
   }

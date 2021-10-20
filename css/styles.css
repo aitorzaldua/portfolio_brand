@@ -1287,7 +1287,7 @@ animation-delay: 24s;
         transform: translate(-50%, -50%);
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
-        color: white;
         font-size: 1em;
+        margin: 0%;
       }
   }

@@ -1290,7 +1290,7 @@ animation-delay: 24s;
   @media only screen and (max-width: 800px) {
       .messages, .messages_2, .bodyMessage {
         position: absolute;
-        top: 40%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: 'Roboto', sans-serif;

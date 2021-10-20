@@ -237,6 +237,12 @@ h6 {
   /* fin de la imagen */
 }
 
+@media (min-width: 800px) {
+  .hero {
+    background-image: none;
+  }
+}
+
 .hero-body {
   flex-direction: column;
   display: -webkit-box;
@@ -258,6 +264,8 @@ h6 {
 @media (min-width: 800px) {
   .hero-bio {
     font-size: 1.75rem;
+    background-image: none;
+    margin-top: 10.5vh;
   }
 }
 

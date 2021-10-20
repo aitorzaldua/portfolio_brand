@@ -7,7 +7,9 @@ icon:
 order: 4
 ---
 
-Follow the articles section to know more about the Decentrized Ecosystem.
+# Are you interested in DAO, Blockchain or DeFi News? 
+
+Then take a look at this category which will provide you with the Latest News about these topics.
 
 ---
 

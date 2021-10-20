@@ -1295,8 +1295,14 @@ animation-delay: 24s;
   @media only screen and (max-width: 800px) {
     .hero-bio {
       margin-top: 10.5vh;
+      
     }
   }
 
 
-  
+  @media only screen and (max-width: 800px) {
+    .hero {
+      background-image: none;
+    }
+
+  }

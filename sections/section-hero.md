@@ -6,7 +6,7 @@ order: 1
 ---
 # We design and build core infrastructure for the decentralised web.
 
-NameLabs provides a full suite of expert services to take your decentralised system from idea to production.
+Draft Digital provides a full suite of expert services to take your decentralised system from idea to production.
 
 We are core developers in the most transformative decentralised projects  ➢  [PROJECTS](#pens)
 

@@ -9,5 +9,5 @@ order: 2
 
 # We are core developers in the most transformative decentralised projects.
 ---
-*Contact us in info@companyname.com*
+*Contact us in info@draftdigital.org*
  

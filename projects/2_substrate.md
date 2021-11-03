@@ -24,4 +24,4 @@ Some of the most exciting projects in decentralized tech are building on Substra
 
 [Directory](https://www.substrate.io/substrate-users/)
 
-[Go to Substrate](https://substrate.dev/en/)
+[Go to Substrate](https://substrate.dev/)

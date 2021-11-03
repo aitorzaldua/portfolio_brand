@@ -2,7 +2,7 @@
 title: The Internet of Assets
 description: Anything you can own can be represented, traded and put to use as non fungible tokens (NFT). You can tokenize your art and get royalties automatically every time it is resold. Or use a token of something you own to borrow. The possibilities just keep growing. Goodbye to the Internet of data, welcome to the Internet of value.
 ---
-![](/img/holochain.png)
+![](/img/chess001.png)
 
 *The new Internet*
 

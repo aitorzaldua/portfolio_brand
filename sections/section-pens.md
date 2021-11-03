@@ -7,7 +7,7 @@ icon:
 order: 2
 ---
 
-# We are core developers in the most transformative decentralised projects.
+# We are core developers in the most transformative decentralized projects.
 ---
 *Contact us in info@draftdigital.org*
  

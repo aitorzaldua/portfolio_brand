@@ -4,11 +4,11 @@ title: WELCOME
 section_id: hero
 order: 1
 ---
-# We design and build core infrastructure for the decentralised web.
+# We design and build core infrastructure for the decentralized web.
 
-Draft Digital provides a full suite of expert services to take your decentralised system from idea to production.
+Draft Digital provides a full suite of expert services to take your decentralized system from idea to production.
 
-We are core developers in the most transformative decentralised projects  ➢  [PROJECTS](#pens)
+We are core developers in the most transformative decentralized projects  ➢  [PROJECTS](#pens)
 
 We take your vision to production  ➢  [SERVICES](#services)
 
